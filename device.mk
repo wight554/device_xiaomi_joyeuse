@@ -57,3 +57,6 @@ PRODUCT_PACKAGES += \
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     vendor/nxp/opensource/pn5xx
+
+# Gapps
+$(call inherit-product-if-exists, vendor/gapps/config.mk)
