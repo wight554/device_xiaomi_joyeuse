@@ -23,3 +23,6 @@ DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
 
 # Kernel
 TARGET_KERNEL_CONFIG := joyeuse_defconfig
+
+# Security patch level
+VENDOR_SECURITY_PATCH := 2020-07-01
